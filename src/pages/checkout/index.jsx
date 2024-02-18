@@ -12,7 +12,7 @@ import { toast } from "react-hot-toast";
 import Button from "../../components/button";
 import { Fragment } from "react";
 import { formatMoney } from "../../libs/utilities";
-import { FlutterWaveButton, closePaymentModal } from "flutterwave-react-v3";
+import { FlutterWaveButton } from "flutterwave-react-v3";
 
 function Checkout() {
   const { cart } = useCart();
