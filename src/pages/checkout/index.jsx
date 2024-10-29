@@ -12,7 +12,7 @@ import { toast } from "react-hot-toast";
 import Button from "../../components/button";
 import { Fragment } from "react";
 import { formatMoney } from "../../libs/utilities";
-import { FlutterWaveButton } from "flutterwave-react-v3";
+import { FlutterWaveButton, closePaymentModal } from "flutterwave-react-v3";
 
 function Checkout() {
   const { cart } = useCart();
@@ -24,20 +24,21 @@ function Checkout() {
   }, 0);
 
   const config = {
-    public_key: "FLWPUBK_TEST-7f7f069493b78f7a8422ba0d2b6b2e94-X",
+    public_key: "FLWPUBK_TEST-4b1b9b6231be505a223782bd4b2bc9e8-X",
+    // public_key: import.meta.env.REACT_APP_FLWPUBK_TEST,
     tx_ref: Date.now(),
     amount: 100,
     currency: "NGN",
     payment_options: "card,mobilemoney,ussd",
     customer: {
-      email: "josephajibodu@gmail.com",
-      phone_number: "08167297386",
-      name: "Joseph Ajibodu",
+      email: "yusuff4u2c@gmail.com",
+      phone_number: "08032320596",
+      name: "Olagunju Yusuff",
     },
     customizations: {
       title: "My store",
       description: "Payment for items in cart",
-      logo: "https://avatars.githubusercontent.com/u/78092933?v=4",
+      logo: "https://st2.depositphotos.com/4403291/7418/v/450/depositphotos_74189661-stock-illustration-online-shop-log.jpg",
     },
   };
 
