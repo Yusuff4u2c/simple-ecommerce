@@ -130,9 +130,9 @@ function Checkout() {
               className="text-gray-900 py-2 px-6 border border-gray-300 rounded-sm focus:border-purple-100 focus:ring-purple-100 h-11 w-full max-w-sm"
             />
           </div>
-          <Button type={"button"} className={"w-fit"}>
+          {/* <Button type={"button"} className={"w-fit"}>
             Pay ₦{formatMoney(subTotal)} Now
-          </Button>
+          </Button> */}
 
           <FlutterWaveButton
             className="py-2 px-3 my-3 h-11 bg-purple-500 text-white rounded-sm font-primary font-semibold text-xl flex justify-center items-center  hover:bg-purple-600 disabled:bg-purple-600/20 disabled:cursor-not-allowed cursor-pointer w-fit"
