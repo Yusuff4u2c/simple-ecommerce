@@ -18,7 +18,7 @@ const Navigation = () => {
               src="/icon.svg"
             />
             <span className="text-xl font-primary font-bold tracking-tight pt-1">
-              Ecommerce
+              YemStore
             </span>
           </h1>
         </Link>

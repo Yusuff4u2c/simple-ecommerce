@@ -10,7 +10,7 @@ function Footer() {
         rel="noreferrer"
         className="text-purple-500 font-bold px-1"
       >
-        Bilal Tahir
+        YemScript
       </a>
     </footer>
   );
